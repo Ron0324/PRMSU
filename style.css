@@ -1,0 +1,262 @@
+.container{
+        position: relative;
+        height: 10em;
+        background-color: rgb(45, 57, 78);
+        border-radius: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+#home{
+    background: linear-gradient(#2193b0,#6dd5ed);
+    border: #2193b0;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    padding: .9em;
+    border-radius: 5em;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#about{
+    background: linear-gradient(#2193b0, #6dd5ed);
+    border: #2193b0;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    padding: .9em;
+    border-radius: 5em;
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+#contact-us {
+    background: linear-gradient(#2193b0, #6dd5ed);
+    border: #2193b0;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    padding: .9em;
+    border-radius: 50px;
+    position: absolute;
+    top: 2em;
+    right: 7.9em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#home:hover {
+    color: #2193b0;
+    background: linear-gradient(#E8DBFC, #F8F9D2);
+    border: none;
+}
+
+#about:hover {
+    color: #2193b0;
+    background: linear-gradient(#E8DBFC, #F8F9D2);
+    border: none;
+    
+}
+
+#contact-us:hover{
+    color: #2193b0;
+    background: linear-gradient(#E8DBFC, #F8F9D2);
+    border: none;
+}
+
+.greet{
+    position: relative;/* Set position to relative */
+    z-index: 1;/* Add z-index to ensure it's displayed above the background */
+    margin-left: 150px;
+    background: -webkit-linear-gradient(to right, white, rgb(196, 191, 191), rgb(175, 175, 175));
+        background: -moz-linear-gradient(to right, white, rgb(196, 191, 191), rgb(175, 175, 175));
+        background: -o-linear-gradient(to right, white, rgb(196, 191, 191), rgb(175, 175, 175));
+        background: linear-gradient(to right, white, rgb(196, 191, 191), rgb(175, 175, 175));
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        -o-text-fill-color: transparent;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.5em;
+        font-weight: 500;
+        margin: 0%;
+        margin-top: .5em;
+}
+.content{
+    position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+}
+.contentInfo {
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 60em;
+}
+.left-menu {
+    text-align: left;
+}
+
+#btnCourses {
+    color: rgb(34, 32, 32);
+    background: none;
+    border: none;
+    padding-bottom: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    font-size: .8em;
+}
+
+#btnTeachers {
+    color: rgb(34, 32, 32);
+        background: none;
+        border: none;
+        padding-bottom: 1em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 1000;
+        font-size: .8em;
+}
+
+#btnOffice {
+    color: rgb(34, 32, 32);
+        background: none;
+        border: none;
+        padding-bottom: 1em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 1000;
+        font-size: .8em;
+
+}
+
+#btnActivities {
+    color: rgb(34, 32, 32);
+        background: none;
+        border: none;
+        padding-bottom: 1em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 1000;
+        font-size: .8em;
+
+}
+
+#btnLocation {
+    color: rgb(34, 32, 32);
+        background: none;
+        border: none;
+        padding-bottom: 1em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 1000;
+        font-size: .8em;
+
+}
+
+.display{
+    padding: 1em;
+    margin: auto;
+    background: linear-gradient(to right, white, rgb(196, 191, 191), rgb(175, 175, 175));
+    width: 70% ;
+    height: auto;
+    border-radius: 1em;
+    display: flex; /* */
+    flex-direction: column;/* */
+    position: relative;
+}
+#PrmsuImage{
+    height: 100%;
+        width: 100%;
+        border-radius: .5em;
+        object-fit: cover;
+
+}
+.title-prms{
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.secDisplay{
+    display: block;
+    padding: 1em;
+    margin: auto;
+    margin-top: 1em;
+    background:linear-gradient(to right,white,rgb(196, 191, 191),rgb(175, 175, 175));
+    width: 70%;
+    height: auto;
+    border-radius: 1em;
+    flex-direction: column;/* */
+
+} 
+#PrmsuImage2 {
+    height: 100%;
+        width: 100%;
+        border-radius: .5em;
+        object-fit: cover;
+    
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Style for the modal content */
+.modal-content {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+/* Style for the close button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+#link {
+    background:none;
+    color: #1558d6;
+    border: none;
+    border-radius: 1em;
+    font-size: 90%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#link:hover{
+    text-decoration: underline;
+}

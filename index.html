@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRMSU-Castillejos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(164, 194, 241); display: block;">
+        <div class="container">
+        
+            <p class="greet" >Welcome To Prmsu Castillejos</p></div>
+            </div>
+            <div><button id="home">HOME</button></div>
+            <div><button id="about">About</button></div>
+            <div><button id="contact-us">Contact-Us</button></div>
+            
+        
+        <div class="content">
+            <div class="left-menu">
+                <div><button  id="btnCourses">Available Courses</button></div>
+                <div ><button id="btnTeachers">Teachers</button></div>
+                <div ><button id="btnOffice">Office Stuff</button></div>
+                <div ><button id="btnActivities">Latest Activities</button></div>
+                <div ><button id="btnLocation">Location</button></div>
+            </div>
+            <div class="contentInfo">
+                <div class="display">
+                    <div></div>
+                    <div> <img id="PrmsuImage" src="images/pmsu logo.jpg" alt="PRMSU LOGO" ></div>
+                    <div>
+                        <p class="title-prms">PRMSU Castillejos Campus Registrar's Office <br> Visit us on facebook:<button id="link">Visit</button></br></p>
+                    </div>
+                </div>
+                
+                <div class="secDisplay" style="text-align: left;" >
+                    <div> <img id="PrmsuImage2" src="images/315978099_572927174841535_3807103409855088993_n.jpg" alt="PRMSU LOGO" onclick="openModal(this)">
+                    </div>
+                    <div>
+                        <p class="title-prms">PRMSU Castillejos Campus <span style="font-weight: 100;"> is one of the campus branches of President Ramon&nbsp;Magsaysay State Universities </span><br> <br>
+                            PRMSU Castillejos Offers You the Following Courses:
+                            <ul style="font-size: 1.2em;" >
+                                <li >Bachelors of Science in Bussiness Administrator</li> 
+                                <li >Bachelors of Social Studies
+                                    <ul style="font-style: italic;">
+                                        <li style="padding-bottom: 1%; padding-top: 1%;">English</li>
+                                        <li style="padding-bottom: 1%;">Social Studies</li>
+                                    </ul>
+                                </li>
+                                <li >Bachelors of Elementary Education</li>
+                                <li>Bachelors of Science in Computer Science</li>
+                                <li>Certificate of Professional Education</li> </div>
+                            </ul>  <br><br>
+                         </p>
+                    </div>
+                    
+                <div id="myModal" class="modal">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <img class="modal-content" id="modalImage">
+                </div>
+            </div>
+            
+        </div>
+
+<script src="script.js"></script>
+   
+    </body>
+</html>
